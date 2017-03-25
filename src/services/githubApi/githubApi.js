@@ -5,17 +5,22 @@ import { encode } from 'base-64'
 import { github } from '../../config'
 const GITHUB_URL = `https://api.github.com`
 
+let token
+
 function saveToken(token){
-  AsyncStorage.setItem('@github_token', token)
+  return AsyncStorage.setItem('@github_token', token)
   .catch(error=>{
     return ({error})
   })
 }
 function getToken(){
-  AsyncStorage.getItem('@github_token')
+  return AsyncStorage.getItem('@github_token')
   .catch(error=>{
     //error saving token
     return ({error})
+  }).then(t=>{
+    token = t
+    return t
   })
 }
 function login({username, password}){
