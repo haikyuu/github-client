@@ -1,0 +1,2121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the CommitsScreen from snapshot 1`] = `
+<View>
+  <RCTScrollView
+    dataSource={
+      ListViewDataSource {
+        "items": 30,
+      }
+    }
+    renderRow={[Function]}
+    renderScrollComponent={[Function]}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars3.githubusercontent.com/u/29597?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Moved takeSnapshot method from UIManager to ReactNative
+            
+            Reviewed By: spicyj
+            
+            Differential Revision: D4767428
+            
+            fbshipit-source-id: 77c80c0135641ab46f9dce2763f27499a96373a0
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Brian Vaughn committed with Facebook Github Bot 10 hours ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars0.githubusercontent.com/u/165856?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Update RunningOnDevice.md
+            
+            Summary:
+            Taking another pass at this doc after running apps on iOS and Android devices this week. Of note, the Connecting to Dev server section on iOS seemed incomplete.
+            
+            Tested steps on iOS and Android.
+            
+            Tested rendering of the site on all permutations.
+            Closes https://github.com/facebook/react-native/pull/13143
+            
+            Differential Revision: D4775026
+            
+            Pulled By: hramos
+            
+            fbshipit-source-id: 9b64120922a093ac646d12861d8dee98fb4e5d7d
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Héctor Ramos committed with Facebook Github Bot 16 hours ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars3.githubusercontent.com/u/23297390?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            PositionError must be an object, not string
+            
+            Summary:
+            As specifications says, the Position error must be an object with code and message attributes. Right now it is a string. If not, we can't know what kind of error is. Another issue is that the message must be exactly "No available location provider."
+            
+            Specifications:
+            https://developer.mozilla.org/en/docs/Web/API/PositionError
+            Closes https://github.com/facebook/react-native/pull/13140
+            
+            Differential Revision: D4774922
+            
+            Pulled By: ericvicenti
+            
+            fbshipit-source-id: f956af051461e9f8d6435496283e54b3c4dc8ef5
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            dabit1 committed with Facebook Github Bot 16 hours ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars2.githubusercontent.com/u/1509831?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            FrameRateLogger JS module
+            
+            Summary:
+            This adds a flowified JS module for the FrameRateLogger native module and plugs
+            it into \`ScrollResponder\` and \`AppRegistry\`.
+            
+            If there is no \`FrameRateLogger\` native module, then the function calls will be no-ops.
+            
+            One major limitation is that we can't track animated/programatic scrolls because we don't
+            have reliable end events. Would be generally useful to add those in a followup though.
+            
+            Reviewed By: fkgozali
+            
+            Differential Revision: D4765694
+            
+            fbshipit-source-id: f3bec771df6ac918200c1afd1a7d8b6da540a4e2
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Spencer Ahrens committed with Facebook Github Bot 16 hours ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars3.githubusercontent.com/u/1488195?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Fixed previously broken support for negative \`scale\` (\`transform\` style property)
+            
+            Summary:
+            closes #13081
+            
+            UIExplorer, TransformExample
+            Closes https://github.com/facebook/react-native/pull/13083
+            
+            Reviewed By: mmmulani
+            
+            Differential Revision: D4758237
+            
+            Pulled By: shergin
+            
+            fbshipit-source-id: 58385a4cde7a739b6657c293c381644a92918265
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Sokovikov committed with Facebook Github Bot 16 hours ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars2.githubusercontent.com/u/1483597?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Fix license headers on SwipableRow
+            
+            Reviewed By: hramos
+            
+            Differential Revision: D4770164
+            
+            fbshipit-source-id: fc1cbbdd2161d4fd307cb14821318466fa6fca57
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Eric Vicenti committed with Facebook Github Bot 20 hours ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars2.githubusercontent.com/u/1483597?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Fix license header on websocket_integration_test_server
+            
+            Reviewed By: hramos
+            
+            Differential Revision: D4770121
+            
+            fbshipit-source-id: c05b45e8775cf3d05c8c9a6e87ab35a3bd032087
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Eric Vicenti committed with Facebook Github Bot 20 hours ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars2.githubusercontent.com/u/1483597?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Re-License Lists with standard React Native License
+            
+            Reviewed By: sahrens
+            
+            Differential Revision: D4771084
+            
+            fbshipit-source-id: 9878a813b7dacb6ec1215fee469b946df0752de9
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Eric Vicenti committed with Facebook Github Bot 20 hours ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars2.githubusercontent.com/u/1483597?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Remove old examples from RN repo
+            
+            Summary:
+            React Native originally shipped with these examples, which have gotten super old and unmaintained.
+            
+            Cruft like this in the core repo only slows us down with extra issues and pull requests. Eventually we may create a different repo for samples that will be maintained into the future.
+            
+            We are doing some spring cleaning in the repo, so now is a good time to remove these and let the community share their own examples.
+            Closes https://github.com/facebook/react-native/pull/13064
+            
+            Differential Revision: D4770699
+            
+            Pulled By: ericvicenti
+            
+            fbshipit-source-id: bbcdec336b28e5a9330afbdb6b166e94e15fa485
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Eric Vicenti committed with Facebook Github Bot 20 hours ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars0.githubusercontent.com/u/50130?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Move classic relay into oss packages
+            
+            Reviewed By: kassens
+            
+            Differential Revision: D4769497
+            
+            fbshipit-source-id: 0144456a82c3969b399a4a0b37814b5627d191c5
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Lee Byron committed with Facebook Github Bot a day ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Instrumentation test for PokesDashboardApp
+            
+            Reviewed By: AaaChiuuu
+            
+            Differential Revision: D4758149
+            
+            fbshipit-source-id: 17e448d44af4deccc288738d294146a612d5e9c3
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Andrew Y. Chen committed with Facebook Github Bot a day ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars0.githubusercontent.com/u/5676?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Fix crash when overriding native modules on RCTJSCExecutor
+            
+            Reviewed By: alexeylang
+            
+            Differential Revision: D4769955
+            
+            fbshipit-source-id: 20f4f4c469eafbe2c7a81ad9f5b9a8386195a8ac
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Pieter De Baets committed with Facebook Github Bot a day ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Fix buck build
+            
+            Reviewed By: AaaChiuuu
+            
+            Differential Revision: D4768765
+            
+            fbshipit-source-id: 91e34faa2fe864b9a9835e6dab07c8396477505f
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Andrew Y. Chen committed with Facebook Github Bot a day ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars0.githubusercontent.com/u/5676?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Allow overrides of NativeModules
+            
+            Reviewed By: mhorowitz
+            
+            Differential Revision: D4764126
+            
+            fbshipit-source-id: 036f848f8b3debbb3cc4a34fc99044304615760e
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Pieter De Baets committed with Facebook Github Bot a day ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars3.githubusercontent.com/u/29597?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Ran codemod to replace View.propTypes with ViewPropTypes
+            
+            Reviewed By: yungsters
+            
+            Differential Revision: D4764838
+            
+            fbshipit-source-id: 0b47a0fdd6793dab9333bb73bb93053fccc27dae
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Brian Vaughn committed with Facebook Github Bot a day ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars1.githubusercontent.com/u/17132071?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Update runAndroid.js to fix startServerInNewWindow() (Windows)
+            
+            Summary:
+            **Motivation**
+            Resolves issue: #12367. The issue is that the packager does not launch automatically on Windows when running \`react-native run-android\` like it does on OSX. The proposed change fixes this issue, and causes the packager to be launched automatically on Windows 10. Also note the updated code uses the syntax described in the [Node.js documentation](https://nodejs.org/api/all.html#child_process_spawning_bat_and_cmd_files_on_windows) on spawning .bat files on Windows.
+            
+            **Test plan**
+            Manually tested on Windows 10.
+            
+            Running just \`react-native run-android\` now results in the packager launching, without needing to run \`react-native start\` in a new command prompt window.
+            
+            **Screenshot:**
+            ![packager](https://cloud.githubusercontent.com/assets/17132071/23641540/8d82bb7c-02c2-11e7-9c47-d1c9b582bd65.png)
+            Closes https://github.com/facebook/react-native/pull/12755
+            
+            Differential Revision: D4767321
+            
+            fbshipit-source-id: a14f369ba99939aa44d0ee3403e1d262e2657e6e
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            jrodiger committed with Facebook Github Bot 2 days ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars3.githubusercontent.com/u/29597?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Exposed new ViewPropTypes object on ReactNative renderer (stack and fiber)
+            
+            Reviewed By: yungsters
+            
+            Differential Revision: D4765002
+            
+            fbshipit-source-id: 54be903bf6529df7ab2cff265c1f87b145da8d94
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Brian Vaughn committed with Facebook Github Bot 2 days ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars2.githubusercontent.com/u/1483597?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Remove Deprecated NavigationExperimental
+            
+            Summary:
+            Now that there are a number of good navigation solutions provided by the community, we are ready to remove NavigationExperimental from the RN core. The latest navigation doc explains the available options pretty well: http://facebook.github.io/react-native/docs/navigation.html . We should also add a mention to Airbnb's new native-navigation.
+            
+            For anybody who continues to rely on it, it is recommended to migrate to React Navigation, which will be maintained over the long-term. For those who cannot migrate yet, it is possible to copy this code into your app.
+            Closes https://github.com/facebook/react-native/pull/13066
+            
+            Differential Revision: D4757539
+            
+            Pulled By: ericvicenti
+            
+            fbshipit-source-id: 949d9b33f188584fb095155fa67d3ce24beba29f
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Eric Vicenti committed with Facebook Github Bot 2 days ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars1.githubusercontent.com/u/1887264?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Deploy v0.42.0
+            
+            Reviewed By: zertosh
+            
+            Differential Revision: D4732064
+            
+            fbshipit-source-id: 12fb8f9aff983ff5d1cb01f413bab761259829f9
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Gabe Levi committed with Facebook Github Bot 2 days ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars0.githubusercontent.com/u/5676?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Enable -Wimplicit-retain-self en sync warning config for all projects
+            
+            Summary:
+            This is enforced for all of our internal iOS code and a common cause of import failures.
+            
+            cc janicduplessis
+            Closes https://github.com/facebook/react-native/pull/13124
+            
+            Differential Revision: D4765016
+            
+            fbshipit-source-id: 7c8248c98bca0fa6bad24d5a52b666243375e0db
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Pieter De Baets committed with Facebook Github Bot 2 days ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars0.githubusercontent.com/u/1733570?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            packager: TerminalReporter: stop reporting global cache errors
+            
+            Summary: At FB we log errors into the error infra, and these errors are not actionnable for end users, so let's reduce the noise generated on the terminal. In the OSS case, people can simply add a handler in a TerminalReporter decorator, the same way we do internally (anyhow, I do not know of anyone using the global cache in OSS for now).
+            
+            Reviewed By: davidaurelio
+            
+            Differential Revision: D4762858
+            
+            fbshipit-source-id: 880c02e175ae551df11b7ce273acc318222c46bf
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Jean Lauliac committed with Facebook Github Bot 2 days ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars3.githubusercontent.com/u/682724?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Clean up some of the ReactNative Buck rules
+            
+            Reviewed By: yangchi
+            
+            Differential Revision: D4739284
+            
+            fbshipit-source-id: 0ee335df0d114631e5fc60d5d6e51547e5312d39
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Michael Lee committed with Facebook Github Bot 2 days ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars0.githubusercontent.com/u/371939?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Integrare UNUserNotification
+            
+            Summary:
+            Implementing removeAllDeliveredNotifications and removeDeliveredNotifications for remove notifications from notification center, and getDeliveredNotifications
+            
+            Thanks for submitting a PR! Please read these instructions carefully:
+            
+            - [x] Explain the **motivation** for making this change.
+            - [x] Provide a **test plan** demonstrating that the code is solid.
+            - [x] Match the **code formatting** of the rest of the codebase.
+            - [x] Target the \`master\` branch, NOT a "stable" branch.
+            
+            Currently, calling PushNotificationIOS.cancelAllLocalNotifications not remove the notification from the Notification Center
+            
+            In iOS 10, a new UNUserNotification class was introduced, this class has a method which get and remove the notifications from notification center
+            
+            This PR try to solve that.
+            
+            In my case, i'm working with an messaging app, every message is a new notification, when the user tap a notification, the app is opened and the rest of notifications should be gon
+            Closes https://github.com/facebook/react-native/pull/13036
+            
+            Differential Revision: D4761828
+            
+            Pulled By: javache
+            
+            fbshipit-source-id: 216e44a64f1bf88b5ae3045d1fa6eca8a1278a71
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Gustavo Perdomo committed with Facebook Github Bot 2 days ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars0.githubusercontent.com/u/5676?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Fix warnings in React.xcodeproj
+            
+            Summary:
+            Various fixes of xcode projects and cleaning up some warnings
+            Closes https://github.com/facebook/react-native/pull/13109
+            
+            Differential Revision: D4762652
+            
+            Pulled By: lacker
+            
+            fbshipit-source-id: b452976a58962439de4adecc8e703264af40cb38
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Pieter De Baets committed with Facebook Github Bot 2 days ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars0.githubusercontent.com/u/165856?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Fix broken icons in Safari
+            
+            Summary:
+            The Play Store started serving WebP files for these icons, which are not rendered well in Safari. Switched to JPEGs from the App Store.
+            
+            Periodical pruning of the showcase: Removed several entries to keep the showcase fresh.
+            Closes https://github.com/facebook/react-native/pull/13098
+            
+            Differential Revision: D4762944
+            
+            Pulled By: hramos
+            
+            fbshipit-source-id: 5f9c43fd186f20b432c54496b143b4a9dd5851e3
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Hector Ramos committed with Facebook Github Bot 2 days ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars0.githubusercontent.com/u/165856?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Update ISSUE_TEMPLATE.md
+            
+            Summary:
+            Thanks for submitting a PR! Please read these instructions carefully:
+            
+            - [ ] Explain the **motivation** for making this change.
+            - [ ] Provide a **test plan** demonstrating that the code is solid.
+            - [ ] Match the **code formatting** of the rest of the codebase.
+            - [ ] Target the \`master\` branch, NOT a "stable" branch.
+            
+            What existing problem does the pull request solve?
+            
+            A good test plan has the exact commands you ran and their output, provides screenshots or videos if the pull request changes UI or updates the website. See [What is a Test Plan?][1] to learn more.
+            
+            If you have added code that should be tested, add tests.
+            
+            Sign the [CLA][2], if you haven't already.
+            
+            Small pull requests are much easier to review and more likely to get merged. Make sure the PR does only one thing, otherwise please split it.
+            
+            Make sure all **tests pass** on both [Travis][3] and [Circle CI][4]. PRs that break tests are unlikely to be merged.
+            Closes https://github.com/facebook/react-native/pull/13122
+            
+            Differential Revision: D4763115
+            
+            Pulled By: hramos
+            
+            fbshipit-source-id: 5d4852a133d42e3fd6eb084cf491a672cf075c29
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Héctor Ramos committed with Facebook Github Bot 2 days ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars0.githubusercontent.com/u/1733570?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            packager: ResolutionRequest.js: sync _resolveHasteDependency()
+            
+            Summary: Some more synchronicity, one step at a time.
+            
+            Reviewed By: davidaurelio
+            
+            Differential Revision: D4756542
+            
+            fbshipit-source-id: 0c56dbca61b3da764aa8d28e29c0e20b54de091e
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Jean Lauliac committed with Facebook Github Bot 2 days ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars0.githubusercontent.com/u/1733570?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            packager: ResolutionRequest.js: sync _resolveFileOrDir
+            
+            Reviewed By: davidaurelio
+            
+            Differential Revision: D4754138
+            
+            fbshipit-source-id: d19792a726220a673dead1c8c6cdf487e34a6808
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Jean Lauliac committed with Facebook Github Bot 2 days ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars0.githubusercontent.com/u/1733570?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            packager: ResolutionRequest.js: _loadAsDir and _loadAsFile sync
+            
+            Reviewed By: davidaurelio
+            
+            Differential Revision: D4754090
+            
+            fbshipit-source-id: 84ad1d988bf097d3094d90f3738ce64cc523879c
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Jean Lauliac committed with Facebook Github Bot 2 days ago
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingHorizontal": 4,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://avatars0.githubusercontent.com/u/165856?v=3",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 4,
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "borderBottomWidth": 0.2,
+              "flex": 1,
+              "marginLeft": 4,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Object {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "paddingBottom": 4,
+              }
+            }
+          >
+            Fix grammar in the "Running on a device" docs
+            
+            Summary:
+            The wording had some grammar issues. The instructions were also not as precise as they could be.
+            
+            Verified on Xcode 8.2.1.
+            Closes https://github.com/facebook/react-native/pull/13093
+            
+            Differential Revision: D4763071
+            
+            Pulled By: hramos
+            
+            fbshipit-source-id: fe9da098f0e457efba4712db704692f6f4857624
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Héctor Ramos committed with Facebook Github Bot 2 days ago
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

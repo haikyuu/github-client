@@ -9,7 +9,6 @@ import {
   getRepoCommits,
   saveToken,
 } from '@services/githubApi/githubApi'
-
 export default class LoginScreen extends Component{
     static navigationOptions = {
     	title: 'Repository Choice',
@@ -39,10 +38,12 @@ export default class LoginScreen extends Component{
       this.setState({response})
     }
     handleButtonClick(){
-      
+      const { navigate } = this.props.navigation
+
+      // return navigate('Commits', {commits: COMMITS})
       this.getRepoCommits()
       .then(response=>{
-        
+        navigate('Commits', {commits: response})
       })
       .catch(error=>{
         this.displayResponse(error.toString())
