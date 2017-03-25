@@ -41,10 +41,12 @@ export default class LoginScreen extends Component{
       this.setState({response})
     }
     handleButtonClick(){
+      const { navigate } = this.props.navigation
       this.login()
       .then(response=>{
         this.displayResponse('You logged in successfully')
         saveToken(response)
+        navigate('Repo')
       })
       .catch(error=>{
         this.displayResponse(error.toString())

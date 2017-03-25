@@ -50,8 +50,27 @@ function login({username, password}){
 }
 
 
+function getRepoCommits(repo){
+  return fetch(`${GITHUB_URL}/repos/${repo}/commits`, {
+  // return fetch(`${GITHUB_URL}/repos/octokit/octokit.rb`, {
+    method: 'GET',
+    headers: getTokenHeader()
+  })
+  .then(res=>res.json())
+}
+
+function getTokenHeader() {
+  let tokenHeader = {
+    // 'User-Agent': config.userAgent,
+    'User-Agent': github.userAgent,
+    'Accept': 'application/json',
+    'Authorization': `token ${token}`
+  }
+  return tokenHeader
+}
 export {
   login,
   saveToken,
   getToken,
+  getRepoCommits,
 }

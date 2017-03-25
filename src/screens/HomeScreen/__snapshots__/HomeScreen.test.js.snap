@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the HomeScreen from snapshot 1`] = `
+<View>
+  <Image
+    resizeMode="contain"
+    source={1}
+    style={
+      Object {
+        "height": 1334,
+        "width": 750,
+      }
+    }
+  />
+</View>
+`;
