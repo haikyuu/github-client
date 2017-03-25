@@ -19,7 +19,8 @@ export default class CommitsScreen extends Component{
   	};
     constructor(props){
       super(props)
-      const commits = props.navigation.state.params.commits
+      const commits = props.navigation.state.params.commits.result
+      const lastPage = props.navigation.state.params.commits.lastPage
       const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1.sha !== r2.sha});
       this.state = {
         dataSource: ds.cloneWithRows(commits),

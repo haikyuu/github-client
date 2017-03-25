@@ -2072,7 +2072,9 @@ it('renders the CommitsScreen from snapshot', () => {
 	const navigation = {
   		state: {
   			params: {
-  				commits
+  				commits: {
+  					result: commits
+  				}
   			}
   		}
   	}

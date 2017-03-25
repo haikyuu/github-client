@@ -50,13 +50,20 @@ function login({username, password}){
 }
 
 
-function getRepoCommits(repo){
-  return fetch(`${GITHUB_URL}/repos/${repo}/commits`, {
-  // return fetch(`${GITHUB_URL}/repos/octokit/octokit.rb`, {
+function getRepoCommits(repo, page){
+  let lastPage
+  return fetch(`${GITHUB_URL}/repos/${repo}/commits${page?'?page='+page:''}`, {
     method: 'GET',
     headers: getTokenHeader()
   })
-  .then(res=>res.json())
+  .then(res=>{
+    lastPage = res.headers.map.link[0].split(';')[1].split('=')[2].slice(0, -1)
+    return res.json()
+  })
+  .then(res=>({
+    lastPage,
+    result: res,
+  }))
 }
 
 function getTokenHeader() {

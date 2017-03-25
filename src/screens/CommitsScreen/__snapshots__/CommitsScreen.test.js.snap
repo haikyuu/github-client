@@ -150,7 +150,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Héctor Ramos committed with Facebook Github Bot 16 hours ago
+            Héctor Ramos committed with Facebook Github Bot 17 hours ago
           </Text>
         </View>
       </View>
@@ -224,7 +224,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            dabit1 committed with Facebook Github Bot 16 hours ago
+            dabit1 committed with Facebook Github Bot 17 hours ago
           </Text>
         </View>
       </View>
@@ -300,7 +300,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Spencer Ahrens committed with Facebook Github Bot 16 hours ago
+            Spencer Ahrens committed with Facebook Github Bot 17 hours ago
           </Text>
         </View>
       </View>
@@ -375,7 +375,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Sokovikov committed with Facebook Github Bot 16 hours ago
+            Sokovikov committed with Facebook Github Bot 17 hours ago
           </Text>
         </View>
       </View>
@@ -576,7 +576,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Eric Vicenti committed with Facebook Github Bot 20 hours ago
+            Eric Vicenti committed with Facebook Github Bot 21 hours ago
           </Text>
         </View>
       </View>
@@ -651,7 +651,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Eric Vicenti committed with Facebook Github Bot 20 hours ago
+            Eric Vicenti committed with Facebook Github Bot 21 hours ago
           </Text>
         </View>
       </View>
