@@ -7,3 +7,13 @@ it('renders the LoginScreen from snapshot', () => {
     <LoginScreen />
   )).toMatchSnapshot()
 })
+
+it('renders the message given', () => {
+
+	const component = renderer.create(
+    	<LoginScreen />
+	)
+	const response = 'token'
+	component.getInstance().displayResponse(response)
+	expect(component).toMatchSnapshot()
+})
