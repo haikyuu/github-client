@@ -2070,15 +2070,21 @@ const commits = [
 
 it('renders the CommitsScreen from snapshot', () => {
 	const navigation = {
-  		state: {
-  			params: {
-  				commits: {
-  					result: commits
-  				}
-  			}
-  		}
-  	}
+		state: {
+			params: {
+				commits: {
+					result: commits
+				}
+			}
+		}
+  }
+  let a = Date.now
+  Date.now = jest.fn(() => 1482363367071);
+
   expect(renderer.create(
     <CommitsScreen navigation={navigation}/>
   )).toMatchSnapshot()
+  
+  Date.now = a
+  //mocking date.now messes up with jest --watch
 })

@@ -8,6 +8,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
         "items": 30,
       }
     }
+    renderFooter={[Function]}
     renderRow={[Function]}
     renderScrollComponent={[Function]}
   >
@@ -75,7 +76,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Brian Vaughn committed with Facebook Github Bot 10 hours ago
+            Brian Vaughn committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -150,7 +151,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Héctor Ramos committed with Facebook Github Bot 17 hours ago
+            Héctor Ramos committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -224,7 +225,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            dabit1 committed with Facebook Github Bot 17 hours ago
+            dabit1 committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -300,7 +301,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Spencer Ahrens committed with Facebook Github Bot 17 hours ago
+            Spencer Ahrens committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -375,7 +376,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Sokovikov committed with Facebook Github Bot 17 hours ago
+            Sokovikov committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -442,7 +443,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Eric Vicenti committed with Facebook Github Bot 20 hours ago
+            Eric Vicenti committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -509,7 +510,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Eric Vicenti committed with Facebook Github Bot 20 hours ago
+            Eric Vicenti committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -576,7 +577,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Eric Vicenti committed with Facebook Github Bot 21 hours ago
+            Eric Vicenti committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -651,7 +652,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Eric Vicenti committed with Facebook Github Bot 21 hours ago
+            Eric Vicenti committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -718,7 +719,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Lee Byron committed with Facebook Github Bot a day ago
+            Lee Byron committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -771,7 +772,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Andrew Y. Chen committed with Facebook Github Bot a day ago
+            Andrew Y. Chen committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -838,7 +839,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Pieter De Baets committed with Facebook Github Bot a day ago
+            Pieter De Baets committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -891,7 +892,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Andrew Y. Chen committed with Facebook Github Bot a day ago
+            Andrew Y. Chen committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -958,7 +959,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Pieter De Baets committed with Facebook Github Bot a day ago
+            Pieter De Baets committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -1025,7 +1026,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Brian Vaughn committed with Facebook Github Bot a day ago
+            Brian Vaughn committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -1103,7 +1104,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            jrodiger committed with Facebook Github Bot 2 days ago
+            jrodiger committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -1170,7 +1171,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Brian Vaughn committed with Facebook Github Bot 2 days ago
+            Brian Vaughn committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -1243,7 +1244,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Eric Vicenti committed with Facebook Github Bot 2 days ago
+            Eric Vicenti committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -1310,7 +1311,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Gabe Levi committed with Facebook Github Bot 2 days ago
+            Gabe Levi committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -1381,7 +1382,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Pieter De Baets committed with Facebook Github Bot 2 days ago
+            Pieter De Baets committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -1450,7 +1451,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Jean Lauliac committed with Facebook Github Bot 2 days ago
+            Jean Lauliac committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -1517,7 +1518,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Michael Lee committed with Facebook Github Bot 2 days ago
+            Michael Lee committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -1603,7 +1604,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Gustavo Perdomo committed with Facebook Github Bot 2 days ago
+            Gustavo Perdomo committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -1674,7 +1675,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Pieter De Baets committed with Facebook Github Bot 2 days ago
+            Pieter De Baets committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -1747,7 +1748,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Hector Ramos committed with Facebook Github Bot 2 days ago
+            Hector Ramos committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -1835,7 +1836,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Héctor Ramos committed with Facebook Github Bot 2 days ago
+            Héctor Ramos committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -1904,7 +1905,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Jean Lauliac committed with Facebook Github Bot 2 days ago
+            Jean Lauliac committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -1971,7 +1972,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Jean Lauliac committed with Facebook Github Bot 2 days ago
+            Jean Lauliac committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -2038,7 +2039,7 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Jean Lauliac committed with Facebook Github Bot 2 days ago
+            Jean Lauliac committed with Facebook Github Bot in 3 months
           </Text>
         </View>
       </View>
@@ -2111,7 +2112,62 @@ exports[`renders the CommitsScreen from snapshot 1`] = `
               }
             }
           >
-            Héctor Ramos committed with Facebook Github Bot 2 days ago
+            Héctor Ramos committed with Facebook Github Bot in 3 months
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityComponentType="button"
+        accessibilityLabel={undefined}
+        accessibilityTraits={
+          Array [
+            "button",
+          ]
+        }
+        accessible={true}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#0C42FD",
+                  "fontSize": 18,
+                  "padding": 8,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#841584",
+                },
+              ]
+            }
+          >
+            Load older commits ...
           </Text>
         </View>
       </View>

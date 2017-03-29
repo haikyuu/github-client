@@ -2,6 +2,19 @@
 
 exports[`renders the HomeScreen from snapshot 1`] = `
 <View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "alignSelf": "center",
+        "marginTop": 15,
+      }
+    }
+  >
+    Hiring octocats ... Please wait
+  </Text>
   <Image
     resizeMode="contain"
     source={1}
