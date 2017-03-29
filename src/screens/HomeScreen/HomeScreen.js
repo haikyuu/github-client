@@ -3,6 +3,7 @@ import {
 	View,
 	Image,
 	Dimensions,
+  Text,
 } from 'react-native'
 import {
 	getToken,
@@ -14,24 +15,34 @@ export default class LoginScreen extends Component{
   	};
   	componentDidMount(){
   		const { navigate } = this.props.navigation;
+      const timeToWait = 2 //seconds
+
   		getToken().then(token=>{
-  			if (!token) {
-  				navigate('Login')
-  			}
-  			navigate('Repo')
+
+        setTimeout(()=>{
+    			if (!token) {
+    				navigate('Login')
+    			}
+    			navigate('Repo')
+        }, timeToWait * 1000);
   		})
-  		.catch(err=>{
-  			navigate('Login')
+      .catch(err=>{
+        setTimeout(()=>{
+  			 navigate('Login')
+        }, timeToWait * 1000);
   		})
   	}
   	render(){
 
   		return (
   			<View>
-          		<Image
-          			resizeMode={'contain'}
-          			style={{width, height }}
-          		 	source={require('./octocat.jpg')}/>
+          <Text style={{alignSelf: 'center', marginTop: 15}}>
+            Hiring octocats ... Please wait
+          </Text>
+      		<Image
+      			resizeMode={'contain'}
+      			style={{width, height }}
+      		 	source={require('./octocat.jpg')}/>
   			</View>	
   		)
   	}
