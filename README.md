@@ -15,13 +15,17 @@ Core features:
 
 - [x] Authentication
 - [x] Display the first 30 commits of a given repo
-- [ ] Implement pagination
+- [x] Implement ~~pagination~~ infinite scrolling
+- [ ] Show commit Details
+- [ ] Filter by commits that changed a specific file
 
 Other features:
 ---
 
 - [x] Store the token in asyncStorage if the user already logged in
 - [x] Do not show login screen if the user is already logged in
+- [ ] Detect when the use is offline and show an alert
+- [ ] Work offline
 
 Other stuff:
 ---
