@@ -57,6 +57,9 @@ function getRepoCommits(repo, page){
     headers: getTokenHeader()
   })
   .then(res=>{
+    if (!res.ok) {
+      throw new Error(`error in getRepoCommits Sttaus: ${res.status}`)
+    }
     lastPage = res.headers.map.link[0].split(';')[1].split('=')[2].slice(0, -1)
     return res.json()
   })

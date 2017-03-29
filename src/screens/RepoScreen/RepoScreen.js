@@ -39,11 +39,11 @@ export default class LoginScreen extends Component{
     }
     handleButtonClick(){
       const { navigate } = this.props.navigation
-
+      const { repo } = this.state
       // return navigate('Commits', {commits: COMMITS})
       this.getRepoCommits()
       .then(response=>{
-        navigate('Commits', {commits: response})
+        navigate('Commits', {commits: response, repo})
       })
       .catch(error=>{
         this.displayResponse(error.toString())
