@@ -18,22 +18,20 @@ export default class LoginScreen extends Component{
       const timeToWait = 2 //seconds
 
   		getToken().then(token=>{
-
         setTimeout(()=>{
     			if (!token) {
-    				navigate('Login')
+    				return navigate('Login')
     			}
-    			navigate('Repo')
+    			return navigate('Repo')
         }, timeToWait * 1000);
   		})
       .catch(err=>{
         setTimeout(()=>{
-  			 navigate('Login')
+  			 return navigate('Login')
         }, timeToWait * 1000);
   		})
   	}
   	render(){
-
   		return (
   			<View>
           <Text style={{alignSelf: 'center', marginTop: 15}}>
