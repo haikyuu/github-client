@@ -2085,6 +2085,6 @@ it('renders the CommitsScreen from snapshot', () => {
     <CommitsScreen navigation={navigation}/>
   )).toMatchSnapshot()
   
-  Date.now = a
+  // Date.now = a
   //mocking date.now messes up with jest --watch
 })
